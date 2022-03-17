@@ -1,0 +1,107 @@
+body {
+    background-color: #379683;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 40px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 60vh;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #8EE4AF;
+    border-radius: 10px;
+    border: 5px double white;
+  }
+  
+  table.list {
+    text-align: center;
+    width: 100%;
+  }
+  
+  td {
+    border: 1px solid rgb(3, 0, 0);
+    text-align: left;
+    padding: 8px 15px;
+  }
+  
+  tr:nth-child(even),
+  table.list thread > tr {
+    background-color: #d0f1bf;
+  }
+  
+  input[type="text"] {
+    width: 91%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  button:hover {
+    background: #1b8f78;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: #125a4c;
+    border: 1px black solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+  
+  tbody {
+    font-family: sans-serif;
+  }
+  
+  .input-part {
+    font-family: sans-serif;
+    font-size: 1rem;
+  }
+  
+  button {
+    background: #125a4c;
+    color: white;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: 1px black solid;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+  }
+  

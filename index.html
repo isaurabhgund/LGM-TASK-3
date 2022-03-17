@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer> </script>
+    <title> Course Enrollment </title>
+</head>
+
+<body>
+    <h1> Course Enrollment Form</h1>
+    <div class="container center">
+        <table>
+            <tr>
+                <td>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="studentName">Student Name</label>
+                            <input type="text" placeholder="Enter Name" name="Name" id="Name">
+                        </div>
+                        <div>
+                            <label for="UID">UID</label>
+                            <input placeholder="Enter UID" type="text" name="UID" id="UID">
+                        </div>
+                        <div>
+                            <label for="SportName">Course Name</label>
+                            <input placeholder="Enter The Course Name" type="text" name="CourseName" id="CourseName">
+                        </div>
+                        <div>
+                            <label for="age">Age</label>
+                            <input placeholder="Enter your Age" type="text" name="age" id="age">
+                        </div>
+                        <div>
+                            <label for="gender">Gender</label>
+                            <input placeholder="Enter Gender" type="text" name="gender" id="gender">
+                        </div>
+
+                        <div class="form-btns">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>UID:</th>
+                                <th>Course Name</th>
+                                <th>Age</th>
+                                <th>Gender</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
